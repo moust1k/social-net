@@ -1,0 +1,27 @@
+.inputMessage {
+    padding: 20px;
+}
+
+.buttonAddMessage {
+    margin-top: 10px;
+    padding: 5px;
+    width: 100px;
+    background: transparent;
+    border: 1px solid;
+    cursor: pointer;
+    transition: 0.2s ease;
+    font-weight: bold;
+    border-radius: 20px;
+}
+
+.buttonAddMessage:hover {
+    background-color: rgba(189, 182, 226, 0.192);
+}
+
+.inputAddMessage {
+    width: 100%;
+    height: 100px;
+    resize: none;
+    border-radius: 5px;
+    padding: 10px;
+}

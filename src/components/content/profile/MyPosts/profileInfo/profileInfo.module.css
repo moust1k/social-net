@@ -1,0 +1,86 @@
+.ava {
+    display: block;
+    text-align: center;
+    width: 330px;
+    height: 100%;
+    border-radius: 50%;
+    margin: 5px 15px;
+    padding: 15px;
+    object-fit: scale-down;
+    object-position: center;
+}
+
+.infoWrapper {
+    background: #4C75A3;
+    color: white;
+    margin-bottom: 30px;
+    border-radius: 50px;
+}
+
+.avaDescription {
+    display: flex;
+    align-items: center;
+}
+
+
+.avaDescription h1 {
+    margin-bottom: 0.6em;
+}
+
+.avaDescription p {
+    margin-top: 5px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.status {
+    display: flex;
+    margin: 20px 0;
+    justify-content: space-between;
+    font-weight: bold;
+}
+
+.chooseFile {
+    width: 300px;
+    padding: 20px;
+    outline: none;
+}
+
+.contactName {
+    padding-left: 10px;
+}
+
+.editFormInput {
+    height: 0px;
+}
+
+.editFormWrapper {
+    max-width: 350px;
+}
+
+.flexForCheck {
+    display: flex;
+    justify-content: space-between;
+}
+
+.editProfileButton {
+    width: 400px;
+    max-width: 130px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    color: white;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+    border: 1px solid;
+    border-radius: 20px;
+    padding: 5px;
+}
+
+.editProfileButton:hover {
+    color: rgb(204, 193, 193);
+    background: #3e6ba0;
+    border: 1px solid rgb(204, 193, 193);
+}

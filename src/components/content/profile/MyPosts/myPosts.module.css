@@ -1,0 +1,21 @@
+.h1Marginb {
+    margin-bottom: 15px;
+}
+
+.myPosts {
+    margin-bottom: 50px;
+}
+
+.sendButton {
+    float: right;
+    padding: 5px;
+    width: 100px;
+    background: transparent;
+    border: 1px solid;
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+
+.sendButton {
+    background-color: rgb(243, 235, 235);
+}

@@ -1,0 +1,35 @@
+.nav {
+    grid-area: n;
+    font-weight: bold;
+    padding: 15px;
+    background: #4C75A3;
+}
+
+.nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    transition: 0.2s ease;
+}
+
+.mmb {
+    margin-bottom: 50px;
+}
+
+.nav a:hover {
+    color: skyblue;
+
+}
+
+.nav.active {
+    padding: 0;
+    border: none;
+}
+
+.nav a.active {
+    color: skyblue
+}
+
+.sidebarFlex {
+    display: flex;
+}

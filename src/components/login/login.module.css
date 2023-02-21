@@ -1,0 +1,50 @@
+.formWrapper {
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.formWrapper h1 {
+    margin-bottom: .5rem;
+}
+
+form div {
+    margin-bottom: 0.5em;
+}
+
+.button {
+    padding: 5px;
+    width: 100px;
+    background: transparent;
+    border: 1px solid;
+    cursor: pointer;
+    transition: .3s ease;
+}
+
+.button:hover {
+    background: #4C75A3;
+    color: white;
+}
+
+.rememberMe {
+    font-size: 20px;
+}
+
+.checkBox {
+    margin-right: .3rem;
+}
+
+.wrapperCheckBox {
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.passwordAndMail {
+    padding: 10px;
+    width: 250px;
+    font-size: 15px;
+}

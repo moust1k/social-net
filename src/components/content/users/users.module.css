@@ -1,0 +1,102 @@
+.flexContent {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.avaFollowed {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+    height: 150px;
+}
+
+.image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.info {
+    padding: 15px;
+    width: 700px;
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid;
+    align-self: center;
+    border-radius: 25px;
+    margin-bottom: 15px;
+}
+
+.flexContent p {
+    font-size: 30px;
+}
+
+.location {
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.unfollow {
+    color: red;
+}
+
+.follow {
+    color: green;
+}
+
+.flexContent button {
+    width: 100px;
+    height: 100px;
+    margin-top: 15px;
+    background: transparent;
+    border: 1px solid;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.flexContent button:hover {
+    background: #4C75A3;
+    color: white;
+    transition: 0.2s ease;
+}
+
+.nameAndStatus {
+    position: relative;
+    width: 400px;
+}
+
+.position {
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+}
+
+.selectedPage {
+    font-weight: bold;
+    color: red;
+}
+
+.pagesClick {
+    text-align: center;
+    position: a;
+    font-size: 20px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.pageNumbers {
+    text-align: center;
+}
+
+.usersMarginTop {
+    margin-top: 20px;
+}
