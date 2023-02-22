@@ -1,4 +1,4 @@
-import React, { FC } from 'react'
+import { FC } from 'react'
 import { Formik, Form, Field, ErrorMessage } from 'formik'
 import { loginFormSchema } from '../validators/FormSchema'
 import m from './login.module.css'

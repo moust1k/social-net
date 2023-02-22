@@ -100,7 +100,11 @@ let mapStateToProps = (state: AppStateType): MapStatePropsType => {
 	}
 }
 
+// export default compose(
+// 	withAuthNavigate,
+// 	connect<MapStatePropsType, MapDispatchPropsType, MapOwnPropsType, AppStateType>(mapStateToProps, { unfollow, follow, setCurrentPage, getUsers })
+// )(UsersContainer)
+
 export default compose(
-	withAuthNavigate,
 	connect<MapStatePropsType, MapDispatchPropsType, MapOwnPropsType, AppStateType>(mapStateToProps, { unfollow, follow, setCurrentPage, getUsers })
 )(UsersContainer)
