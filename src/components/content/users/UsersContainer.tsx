@@ -1,6 +1,7 @@
 import React, { FC } from 'react'
 import { connect } from 'react-redux'
-import { unfollow, follow, setCurrentPage, getUsers } from '../../../redux/usersReducer'
+import { unfollow, follow, getUsers } from '../../../redux/usersReducer'
+import { usersActions } from '../../../redux/usersReducer'
 import Users from './Users'
 import Preloader from '../../common/preloader/Preloader'
 import { withAuthNavigate } from '../../../hoc/withAuthNavigate'
@@ -24,6 +25,7 @@ type MapDispatchPropsType = {
 }
 type MapOwnPropsType = {}
 type PropsType = MapStatePropsType & MapDispatchPropsType & MapOwnPropsType
+const { setCurrentPage } = usersActions
 
 const UsersContainer: FC<PropsType> = props => {
 	React.useEffect(() => {
@@ -32,7 +34,7 @@ const UsersContainer: FC<PropsType> = props => {
 
 	let onPageClick = (page: number) => {
 		props.getUsers(props.pageSize, page)
-		props.setCurrentPage(page)
+		usersActions.setCurrentPage(page)
 	}
 
 	return (
